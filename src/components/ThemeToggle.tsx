@@ -5,7 +5,7 @@ const ThemeToggle = () => {
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <div className="flex justify-end mx-8 mt-4">
+    <div className="flex justify-end px-8 pt-4 bg-blue-500 dark:bg-gray-500">
       <button
         onClick={toggleTheme}
         aria-label="Toggle Theme"
